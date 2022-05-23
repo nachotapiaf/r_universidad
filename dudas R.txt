@@ -1,0 +1,5 @@
+Dudas R
+
+1. Después de seleccionar las variables y filtrarlas por edad quedo como en blanco porque no sé, en términos de pasos siguientes, qué hacer
+
+Entonces ya tengo los datos que necesito, están filtrados pero ahora qué? Manipularlos y transformarlos me imagino, pero cómo parto? por dónde?

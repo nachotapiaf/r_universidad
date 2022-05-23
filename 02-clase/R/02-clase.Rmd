@@ -1,0 +1,49 @@
+---
+title: "Análisis estadístico datos en R"
+subtitle: "Sesión 2"
+author: "Valentina Andrade"
+date: "15-08-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Iniciando
+
+RMarkdown provee una forma fácil de integrar código en R y texto. 
+
+## Texto
+
+El texto, que es escrito en Markdown, puede ser formateado de forma simple, tal como:
+
+-  *cursiva*
+- **negrita**
+- `codigo`
+- [links](learn-uah.netlify.app)
+- Poner ecuaciones de una regresión, $\hat{y} = \alpha + \beta x_1$
+
+
+## Código en R
+Para añadir un chunk debes presionar  `Control + Alt + I` en Windows o `⌘⌥I` en macOS 
+
+Mira este chunk que hace un resumen de la base de datos cars
+```{r cars}
+summary(cars)
+```
+
+### Incluir un gráfico
+
+Un ejemplo:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Notar que `echo = FALSE` es un parámetro que incorporamos para que no se pegue en el documento el chunk, pero si aparezca el grafico
+
+
+# Compilar
+
+Cuando apretas **Knit** se generará un documento que contiene tanto el contenido que produce R y todo lo que hayas escrito. 
